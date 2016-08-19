@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/style.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="modal_window">
+			<div id="modal_title"></div>
+			<div id="modal_content"></div>
+		</div>
+		
+		<div id="page">
+			<header id="top">
+				<div class="content">
+					<div class="header row">
+						<div class="coll-2 header_logo upper_case">ТЕХНОПАРК</div>
+						<div class="coll-2 header_phone">8 800 777 50 50</div>
+						<div class="coll-6 header_search">
+							<input type="text" placeholder="ПОИСК ТОВАРОВ" class="search">
+						</div>
+						<div class="coll-2 header_payment">
+							<a href="#" class="upper_case">ДОСТАВКА И ОПЛАТА</a>
+						</div>
+						<div id="header_search_button"></div>
+					</div>
+					<div class="header header_footer">
+						<div class="header_basket__icon upper_case">
+							<a href="#"><span class="basket_icon"></span></a>
+						</div>
+						<div class="header header_menu">
+							<div class="menu_open"></div>
+							<ul id="header_menu">
+								<li><a href="#">Мобильные телефоны</a></li>
+								<li><a href="#">Планшеты</a></li>
+								<li class="active"><a href="#">Фототехника</a></li>
+								<li><a href="#">Ноутбуки</a></li>
+								<li><a href="#">Телевизоры</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			<div class="content" id="middle">
+				<div class="middle_header content">
+					
+					<div id="middle_header__category_title"></div>
+					<div id="middle_header__filter_button"></div>
+					
+					<div id="filters" class="content">
+						<div class="selection_bar type_select filter" data-filter-default="Любого типа">
+							<div class="selection_body">
+								<div class="selection_header">Любого типа</div>
+								<ul class="selection_content">
+									<li><a href="#" data-filter="">Любого типа</a></li>
+									<li><a href="#" data-filter="Компакт-камера">Компакт-камера</a></li>
+									<li><a href="#" data-filter="Беззеркальная">Беззеркальная</a></li>
+									<li><a href="#" data-filter="Зеркальная">Зеркальная</a></li>
+									<li><a href="#" data-filter="Среднеформатная">Среднеформатная</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="selection_bar brand_select filter" data-filter-default="Любого бренда">
+							<div class="selection_body">
+								<div class="selection_header">Любого бренда</div>
+								<ul class="selection_content">
+									<li><a href="#" data-filter="">Любого бренда</a></li>
+									<li><a href="#" data-filter="Canon">Canon</a></li>
+									<li><a href="#" data-filter="Nikon">Nikon</a></li>
+									<li><a href="#" data-filter="Sony">Sony</a></li>
+									<li><a href="#" data-filter="Fujifilm">Fujifilm</a></li>
+									<li><a href="#" data-filter="Samsung">Samsung</a></li>
+									<li><a href="#" data-filter="Olympus">Olympus</a></li>
+									<li><a href="#" data-filter="Panasonic">Panasonic</a></li>
+									<li><a href="#" data-filter="Polaroid">Polaroid</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="price_counter upper_case filter">
+							<span>По цене:</span>
+							<div class="multiply_input">
+								<div class="from_price"><input id="from_price" value="0" type="text" maxlength="11" data-type-price></div>
+								<div class="to_price"><input id="to_price" value="999 999 999" type="text" maxlength="11" data-type-price></div>
+							</div>
+							<span>РУБЛЕЙ</span>
+						</div>
+					</div>
+					
+				</div>
+			
+				<div id="products_error">
+					<div class="error_title">Ошибка!</div>
+					<div class="error_message">Извините, но по Вашему запросу ничего не найдено! Мы восстановили все товары на сайте! Измените критерии поиска для поиска необходимого товара.</div>
+				</div>
+				
+				<div id="products" class="middle_products content">
+			
+					<div class="product product_col-2 product_stock">
+						<div class="product_body">
+							<div class="product_images">
+								<img src="/images/photo/fujifilm_x-e2.png" alt="Fujifilm X-E2 Kit 18-55mm">
+							</div>
+							<div class="product_info">
+								<div class="filter_block">
+									<div class="brand">Fujifilm</div>
+									<div class="type">Беззеркальная</div>
+									<div class="price">12999000</div>
+								</div>
+								<div class="product_info__header">
+									<div class="product_title">Fujifilm X-E2 Kit 18-55mm</div>
+									<div class="product_descr">
+										Беззеркальная 16.3 Мп 1.5 crop <br />
+										С объективом F2.8-4.0 18.55мм <br />
+										Экран 3" 1 040 000 пикс. <br />
+										Электронный видоискатель <br />
+										Металлический корпус <br />
+										Live View с автофокусом <br />
+										ISO 200-2500 <br />
+										Съёмка Full HD видео 60 кадров/сек <br />
+										Поддержка карт SD, SDHC, SDXC <br />
+										WiFi
+									</div>
+									<div class="price old-price">14 850 000 руб.</div>
+								</div>
+								<div class="product_info__footer">
+									<div class="price">12 999 000 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product product_col-1 product_default">
+						<div class="product_body">
+							<div class="product_images">
+								<img src="/images/photo/canon_eos_700d.png" alt="Canon EOS 700D Kit 18-55 IS STM">
+							</div>
+							<div class="product_info">
+								<div class="filter_block">
+									<div class="brand">Canon</div>
+									<div class="type">Зеркальная</div>
+									<div class="price">8355000</div>
+								</div>
+								<div class="product_info__header">
+									<div class="product_title">Canon EOS 700D Kit 18-55 IS STM</div>
+									<div class="product_descr">
+										Зеркальная, 18 Мп 1.6 crop, <br />
+										с объективом F3.5-5.6 18-55 мм, <br />
+										экран 3" сенсорный, поворотный, видоискатель оптический
+									</div>
+								</div>
+								<div class="product_info__footer">
+									<div class="price">8 355 000 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product product_col-1 product_default">
+						<div class="product_body">
+							<div class="product_images">
+								<img src="/images/photo/fujifilm_x100s.png" alt="Fujifilm X100S">
+							</div>
+							<div class="product_info">
+								<div class="filter_block">
+									<div class="brand">Fujifilm</div>
+									<div class="type">Компакт-камера</div>
+									<div class="price">12999000</div>
+								</div>
+								<div class="product_info__header">
+									<div class="product_title">Fujifilm X100S</div>
+									<div class="product_descr">
+										Компакт-камера, 1673 Мп 1.5 crop, F2.0  <br />
+										35 мм, экран 2.8"
+									</div>
+								</div>
+								<div class="product_info__footer">
+									<div class="price">12 999 000 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product product_col-1 product_default">
+						<div class="product_body">
+							<div class="product_images">
+								<img src="/images/photo/nikon_d3200.png" alt="Nikon D3200 Kit 18-55mm VR">
+							</div>
+							<div class="product_info">
+								<div class="filter_block">
+									<div class="brand">Nikon</div>
+									<div class="type">Зеркальная</div>
+									<div class="price">5967000</div>
+								</div>
+								<div class="product_info__header">
+									<div class="product_title">Nikon D3200 Kit 18-55mm VR</div>
+									<div class="product_descr">
+										Зеркальная, 24.2 Мп 1.5 crop, <br />
+										с объективом F3.5-5.6 18-55 мм, <br />
+										экран 3", видоискатель оптический
+									</div>
+								</div>
+								<div class="product_info__footer">
+									<div class="price">5 967 000 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product product_col-1 product_default">
+						<div class="product_body">
+							<div class="product_images">
+								<img src="/images/photo/sony_alpha_a5000.png" alt="Sony Alpha a5000 Kit 16-50mm">
+							</div>
+							<div class="product_info">
+								<div class="filter_block">
+									<div class="brand">Sony</div>
+									<div class="type">Беззеркальная</div>
+									<div class="price">6900000</div>
+								</div>
+								<div class="product_info__header">
+									<div class="product_title">Sony Alpha a5000 Kit 16-50mm</div>
+									<div class="product_descr">
+										Беззеркальная, 20.1 Мп 1.5 crop, <br />
+										с объективом F3.5-5.6 16-50 мм, <br />
+										экран 3" поворотный, WiFi
+									</div>
+								</div>
+								<div class="product_info__footer">
+									<div class="price">6 900 000 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product product_col-1 product_default">
+						<div class="product_body">
+							<div class="product_images">
+								<img src="/images/photo/canon_eos_1200d.png" alt="Canon EOS 1200D Kit 18-55mm IS II">
+							</div>
+							<div class="product_info">
+								<div class="filter_block">
+									<div class="brand">Canon</div>
+									<div class="type">Зеркальная</div>
+									<div class="price">5967000</div>
+								</div>
+								<div class="product_info__header">
+									<div class="product_title">Canon EOS 1200D Kit 18-55mm IS II</div>
+									<div class="product_descr">
+										Зеркальная, 18 Мп 1.6 crop, <br />
+										с объективом F3.5-5.6 18-55 мм, <br />
+										экран 3", видоискатель оптический
+									</div>
+								</div>
+								<div class="product_info__footer">
+									<div class="price">5 967 000 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product product_col-1 product_default">
+						<div class="product_body">
+							<div class="product_images">
+								<img src="/images/photo/canon_powershot_g7.png" alt="Canon PowerShot G7 X">
+							</div>
+							<div class="product_info">
+								<div class="filter_block">
+									<div class="brand">Canon</div>
+									<div class="type">Компакт-камера</div>
+									<div class="price">8499000</div>
+								</div>
+								<div class="product_info__header">
+									<div class="product_title">Canon PowerShot G7 X</div>
+									<div class="product_descr">
+										Компакт-камера, 20.2 1", F1.8-2.8 <br />
+										24-100 мм 4X, экран 3" сенсорный, <br />
+										видоискатель электронный, WiFi
+									</div>
+								</div>
+								<div class="product_info__footer">
+									<div class="price">8 499 000 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<footer class="site-footer">
+				<div class="content footer">
+					© 2016 Технопарк.
+				</div>
+			</footer>
+		</div>
+		
+		<script type="text/javascript" src="js/polyfills.js"></script>
+		<script type="text/javascript" src="js/product_adder.js"></script>
+		<script type="text/javascript" src="js/filter.js"></script>
+		<script type="text/javascript" src="js/load.js"></script>
+		<script type="text/javascript" src="js/number_mask.js"></script>
+	</body>
+</html>

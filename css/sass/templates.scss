@@ -1,0 +1,34 @@
+﻿$background: #fff;
+
+$basic_font: 14px/18px Arial, Tahoma, sans-serif;
+$second_font: 14px/18px Tahoma, sans-serif;
+$third_font: 14px/18px Verdana, sans-serif;
+
+$h1_font: normal 24px/24px Tahoma, sans-serif;
+$h2_font: normal 18px/22px Tahoma, sans-serif;
+$h3_font: normal 16px/18px Tahoma, sans-serif;
+$h4_font: normal 14px/16px Tahoma, sans-serif;
+$h5_font: normal 12px/14px Tahoma, sans-serif;
+$h6_font: normal 10px/12px Tahoma, sans-serif;
+
+$header_background: #488bfb;
+$header_background_shadow: rgba(68, 136, 255, 0.07);
+$menu_hover_background: #444444;
+
+$red_background: rgba(255, 102, 102, 0.07);
+$red_border: #ff6666;
+
+$text_hover_color: #4488ff;
+$text_secondary_color: #999999;
+$text_color: #444444;
+$text_white: #fff;
+
+$max_width: 1172px;
+$width: 100%;
+
+@mixin box-sizing($type) {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing: $type;
+	-ms-box-sizing: $type;
+	box-sizing: $type;
+}
